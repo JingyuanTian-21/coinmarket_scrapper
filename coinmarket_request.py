@@ -30,10 +30,5 @@ for i in range(5):
 	html = response.read()
 	f.write(html)
 	f.close()
-	time.sleep(5)#seconds for example:300
+	time.sleep(10)#seconds for example:300
 	#time.sleep(3600 + random)# mimic a human
-
-
-
-
-
